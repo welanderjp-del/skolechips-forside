@@ -7,8 +7,8 @@ import {
 } from "lucide-react";
 import AppCard from "./components/AppCard";
 // Local images from public folder
-const skolechipsLogo = "/public/skolechips-logo.png";
-const rytmeboksPreview = "/public/rytmeboks-preview.png";
+const skolechipsLogo = "/skolechips-logo.png";
+const rytmeboksPreview = "/rytmeboks-preview.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
