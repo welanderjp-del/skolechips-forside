@@ -6,9 +6,9 @@ import {
   Mail
 } from "lucide-react";
 import AppCard from "./components/AppCard";
-// Local images from public folder
-const skolechipsLogo = "public/skolechips-logo.png";
-const rytmeboksPreview = "public/rytmeboks-preview.png";
+// External images for reliable hosting
+const skolechipsLogo = "https://i.imgur.com/54xfXGu.png";
+const rytmeboksPreview = "https://i.imgur.com/LCLNc3x.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
