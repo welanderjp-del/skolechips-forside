@@ -7,8 +7,8 @@ import {
 } from "lucide-react";
 import AppCard from "./components/AppCard";
 // Local images from public folder
-const skolechipsLogo = "/skolechips-logo.png";
-const rytmeboksPreview = "/rytmeboks-preview.png";
+const skolechipsLogo = "./skolechips-logo.png";
+const rytmeboksPreview = "./rytmeboks-preview.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
@@ -38,6 +38,7 @@ export default function App() {
               src={skolechipsLogo} 
               alt="Skolechips Logo" 
               className="w-full h-auto rounded-3xl"
+              referrerPolicy="no-referrer"
             />
           </motion.div>
         </div>
