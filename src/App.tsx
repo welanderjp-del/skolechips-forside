@@ -11,11 +11,18 @@ const skolechipsLogo = "https://i.imgur.com/54xfXGu.png";
 const rytmeboksPreview = "https://i.imgur.com/TZMU3QO.png";
 const bouncyTimerPreview = "https://i.imgur.com/hjYqdbq.png";
 const gruppepachinkoPreview = "https://i.imgur.com/aYwOEjE.png";
+const laeserollerPreview = "https://i.imgur.com/ek60PiE.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
 
   const apps = [
+    {
+      title: "Læseroller",
+      description: "Digital understøttelse af sjove og anderledes læseroller.",
+      image: laeserollerPreview,
+      url: "https://laeseroller.skolechips.dk/",
+    },
     {
       title: "Rytmeboks",
       description: "Nem notation til musikundervisningen.",
@@ -33,11 +40,6 @@ export default function App() {
       description: "Et visuelt og legende stopur.",
       image: bouncyTimerPreview,
       url: "https://bouncytimer.skolechips.dk/",
-    },
-    {
-      title: "Læseroller",
-      description: "Digital understøttelse af sjove og anderledes læseroller.",
-      url: "https://laeseroller.skolechips.dk/",
     }
   ];
 
