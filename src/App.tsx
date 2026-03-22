@@ -8,7 +8,7 @@ import {
 import AppCard from "./components/AppCard";
 // External images for reliable hosting
 const skolechipsLogo = "https://i.imgur.com/54xfXGu.png";
-const rytmeboksPreview = "https://i.imgur.com/LCLNc3x.png";
+const rytmeboksPreview = "https://i.imgur.com/TZMU3QO.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
@@ -19,6 +19,11 @@ export default function App() {
       description: "Nem notation til musikundervisningen.",
       image: rytmeboksPreview,
       url: "https://rytmeboks.skolechips.dk/",
+    },
+    {
+      title: "Gruppepachinko",
+      description: "Lav tilfældige grupper.",
+      url: "https://gruppepachinko.skolechips.dk/",
     }
   ];
 
