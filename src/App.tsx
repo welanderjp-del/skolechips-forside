@@ -9,6 +9,8 @@ import AppCard from "./components/AppCard";
 // External images for reliable hosting
 const skolechipsLogo = "https://i.imgur.com/54xfXGu.png";
 const rytmeboksPreview = "https://i.imgur.com/TZMU3QO.png";
+const bouncyTimerPreview = "https://i.imgur.com/hjYqdbq.png";
+const gruppepachinkoPreview = "https://i.imgur.com/aYwOEjE.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
@@ -22,8 +24,20 @@ export default function App() {
     },
     {
       title: "Gruppepachinko",
-      description: "Lav tilfældige grupper.",
+      description: "Lad pachinko-kuglerne bestemme dine tilfældige grupper.",
+      image: gruppepachinkoPreview,
       url: "https://gruppepachinko.skolechips.dk/",
+    },
+    {
+      title: "Bouncy Timer",
+      description: "Et visuelt og legende stopur.",
+      image: bouncyTimerPreview,
+      url: "https://bouncytimer.skolechips.dk/",
+    },
+    {
+      title: "Læseroller",
+      description: "Digital understøttelse af sjove og anderledes læseroller.",
+      url: "https://laeseroller.skolechips.dk/",
     }
   ];
 
