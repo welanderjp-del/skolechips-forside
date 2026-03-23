@@ -12,7 +12,7 @@ const rytmeboksPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v177
 const bouncyTimerPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287926/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.59_bszrge.png";
 const gruppepachinkoPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287935/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.31_utxx5n.png";
 const laeserollerPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287939/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.18_kneq6u.png";
-const klassebingoPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774301199/Sk%C3%A6rmbillede_2026-03-23_kl._22.26.15_ptu13j.png";
+const klassebingoPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774303560/Sk%C3%A6rmbillede_2026-03-23_kl._23.05.36_kloqtk.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
