@@ -7,11 +7,12 @@ import {
 } from "lucide-react";
 import AppCard from "./components/AppCard";
 // External images for reliable hosting
-const skolechipsLogo = "https://i.ibb.co/jvRs2nyM/skolechips-logo.png";
-const rytmeboksPreview = "https://i.ibb.co/60Brsm7b/Sk-rmbillede-2026-03-23-kl-16-09-07.png";
-const bouncyTimerPreview = "https://i.ibb.co/pvWw9ppX/Sk-rmbillede-2026-03-23-kl-16-06-59.png";
-const gruppepachinkoPreview = "https://i.ibb.co/nqfL0zd6/Sk-rmbillede-2026-03-23-kl-16-06-31.png";
-const laeserollerPreview = "https://i.ibb.co/tpJ3kpFC/Sk-rmbillede-2026-03-23-kl-16-06-18.png";
+const skolechipsLogo = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287929/skolechips-logo_d5yfrl.png";
+const rytmeboksPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287926/Sk%C3%A6rmbillede_2026-03-23_kl._16.09.07_n2ejkt.png";
+const bouncyTimerPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287926/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.59_bszrge.png";
+const gruppepachinkoPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287935/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.31_utxx5n.png";
+const laeserollerPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287939/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.18_kneq6u.png";
+const klassebingoPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774301199/Sk%C3%A6rmbillede_2026-03-23_kl._22.26.15_ptu13j.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
@@ -40,6 +41,12 @@ export default function App() {
       description: "Et visuelt og legende stopur.",
       image: bouncyTimerPreview,
       url: "https://bouncytimer.skolechips.dk/",
+    },
+    {
+      title: "Klassebingo",
+      description: "Sjov og interaktiv bingo til klassen.",
+      image: klassebingoPreview,
+      url: "https://klassebingo.skolechips.dk/",
     }
   ];
 
