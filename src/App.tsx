@@ -7,11 +7,11 @@ import {
 } from "lucide-react";
 import AppCard from "./components/AppCard";
 // External images for reliable hosting
-const skolechipsLogo = "https://i.imgur.com/54xfXGu.png";
-const rytmeboksPreview = "https://i.imgur.com/TZMU3QO.png";
-const bouncyTimerPreview = "https://i.imgur.com/hjYqdbq.png";
-const gruppepachinkoPreview = "https://i.imgur.com/aYwOEjE.png";
-const laeserollerPreview = "https://i.imgur.com/ek60PiE.png";
+const skolechipsLogo = "https://i.ibb.co/jvRs2nyM/skolechips-logo.png";
+const rytmeboksPreview = "https://i.ibb.co/60Brsm7b/Sk-rmbillede-2026-03-23-kl-16-09-07.png";
+const bouncyTimerPreview = "https://i.ibb.co/pvWw9ppX/Sk-rmbillede-2026-03-23-kl-16-06-59.png";
+const gruppepachinkoPreview = "https://i.ibb.co/nqfL0zd6/Sk-rmbillede-2026-03-23-kl-16-06-31.png";
+const laeserollerPreview = "https://i.ibb.co/tpJ3kpFC/Sk-rmbillede-2026-03-23-kl-16-06-18.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
