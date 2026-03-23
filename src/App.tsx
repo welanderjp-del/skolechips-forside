@@ -44,7 +44,7 @@ export default function App() {
     },
     {
       title: "Klassebingo",
-      description: "Sjov og interaktiv bingo til klassen.",
+      description: "Print plader og spil bingo fælles i klassen.",
       image: klassebingoPreview,
       url: "https://klassebingo.skolechips.dk/",
     }
