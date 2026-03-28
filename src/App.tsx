@@ -9,7 +9,7 @@ import AppCard from "./components/AppCard";
 // External images for reliable hosting
 const skolechipsLogo = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287929/skolechips-logo_d5yfrl.png";
 const rytmeboksPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287926/Sk%C3%A6rmbillede_2026-03-23_kl._16.09.07_n2ejkt.png";
-const bouncyTimerPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287926/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.59_bszrge.png";
+const chipstimerPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287926/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.59_bszrge.png";
 const gruppepachinkoPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287935/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.31_utxx5n.png";
 const laeserollerPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287939/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.18_kneq6u.png";
 const klassebingoPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774303560/Sk%C3%A6rmbillede_2026-03-23_kl._23.05.36_kloqtk.png";
@@ -37,10 +37,10 @@ export default function App() {
       url: "https://gruppepachinko.skolechips.dk/",
     },
     {
-      title: "Bouncy Timer",
+      title: "Chipstimer",
       description: "Et visuelt og legende stopur.",
-      image: bouncyTimerPreview,
-      url: "https://bouncytimer.skolechips.dk/",
+      image: chipstimerPreview,
+      url: "https://chipstimer.skolechips.dk/",
     },
     {
       title: "Klassebingo",
