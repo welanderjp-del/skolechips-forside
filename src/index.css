@@ -1,1 +1,47 @@
 @import "tailwindcss";
+
+@keyframes flicker-primary {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  20% { opacity: 0.8; transform: scale(1.15); }
+  40% { opacity: 0.3; transform: scale(0.85); }
+  60% { opacity: 0.7; transform: scale(1.08); }
+  80% { opacity: 0.35; transform: scale(0.92); }
+}
+
+@keyframes flicker-secondary {
+  0%, 100% { opacity: 0.3; transform: translate(0, 0); }
+  33% { opacity: 0.7; transform: translate(25px, -25px); }
+  66% { opacity: 0.25; transform: translate(-20px, 20px); }
+}
+
+@keyframes flicker-tertiary {
+  0%, 100% { opacity: 0.2; }
+  25% { opacity: 0.6; }
+  50% { opacity: 0.15; }
+  75% { opacity: 0.5; }
+}
+
+@keyframes fire-glow-pulse {
+  0%, 100% { opacity: 0.1; }
+  50% { opacity: 0.25; }
+}
+
+.flicker-1 {
+  animation: flicker-primary 4.5s infinite ease-in-out;
+}
+
+.flicker-2 {
+  animation: flicker-secondary 6.2s infinite ease-in-out;
+}
+
+.flicker-3 {
+  animation: flicker-tertiary 7.8s infinite ease-in-out;
+}
+
+.fire-glow-base {
+  animation: fire-glow-pulse 5s infinite alternate ease-in-out;
+}
+
+.dnd-glow {
+  box-shadow: 0 0 15px rgba(220, 38, 38, 0.5);
+}
