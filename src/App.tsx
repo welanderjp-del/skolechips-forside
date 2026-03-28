@@ -13,6 +13,7 @@ const chipstimerPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v17
 const gruppepachinkoPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287935/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.31_utxx5n.png";
 const laeserollerPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774287939/Sk%C3%A6rmbillede_2026-03-23_kl._16.06.18_kneq6u.png";
 const klassebingoPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774303560/Sk%C3%A6rmbillede_2026-03-23_kl._23.05.36_kloqtk.png";
+const initiativLogo = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774698820/f03e22e2-f452-4470-8af5-32440138e2eb_mtcus0.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
@@ -90,7 +91,20 @@ export default function App() {
       </main>
 
       {/* Less anonymous Contact Link in corner */}
-      <footer className="fixed bottom-8 right-8 z-40">
+      <footer className="fixed bottom-8 right-8 z-40 flex items-center gap-3">
+        <a 
+          href="https://initiativ.skolechips.dk"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 bg-white border border-gray-100 rounded-full flex items-center justify-center shadow-sm hover:border-gray-200 transition-all duration-300 overflow-hidden group"
+        >
+          <img 
+            src={initiativLogo} 
+            alt="Initiativ Logo" 
+            className="w-6 h-6 object-contain group-hover:scale-110 transition-transform duration-300"
+            referrerPolicy="no-referrer"
+          />
+        </a>
         <button 
           onClick={() => setShowContact(!showContact)}
           className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-bold transition-all duration-300 border ${
