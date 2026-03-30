@@ -28,7 +28,13 @@ const tokenPrintPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v17
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
-  const [isDnDMode, setIsDnDMode] = useState(false);
+  const [isDnDMode, setIsDnDMode] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('dnd') === 'true';
+    }
+    return false;
+  });
   const [isMuted, setIsMuted] = useState(false);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [dndConfirmState, setDndConfirmState] = useState<'idle' | 'confirm'>('idle');

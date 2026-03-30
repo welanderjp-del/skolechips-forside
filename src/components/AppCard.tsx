@@ -11,8 +11,6 @@ export default function AppCard({ title, description, image, url }: AppCardProps
   return (
     <motion.a
       href={url}
-      target="_blank"
-      rel="noopener noreferrer"
       whileHover={{ y: -4 }}
       whileTap={{ scale: 0.98 }}
       className="flex flex-col overflow-hidden rounded-[2.5rem] border border-gray-100 bg-white shadow-[0_4px_20px_rgb(0,0,0,0.02)] transition-all hover:shadow-[0_12px_30px_rgb(0,0,0,0.05)] group max-w-[300px] w-full"
