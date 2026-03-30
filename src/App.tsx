@@ -24,6 +24,7 @@ const dndBackground = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v177471
 const dndSong = "https://res.cloudinary.com/dtw8jfk0k/video/upload/v1774707181/Na%CC%8Ar_Terningerne_Falder_xf7uht.mp3";
 const windLoop = "https://assets.mixkit.co/active_storage/sfx/444/444-preview.mp3";
 const initiativTrackerPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774707531/Sk%C3%A6rmbillede_2026-03-28_kl._15.18.34_kkardy.png";
+const tokenPrintPreview = "https://res.cloudinary.com/dtw8jfk0k/image/upload/v1774876278/Sk%C3%A6rmbillede_2026-03-30_kl._15.10.49_nga5zz.png";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
@@ -126,6 +127,12 @@ export default function App() {
       description: "Hold styr på turen i dine D&D kampe.",
       image: initiativTrackerPreview,
       url: "https://initiativ.skolechips.dk/",
+    },
+    {
+      title: "Token-print",
+      description: "Print dine egne tokens til D&D.",
+      image: tokenPrintPreview,
+      url: "https://tokens.skolechips.dk/",
     }
   ];
 
